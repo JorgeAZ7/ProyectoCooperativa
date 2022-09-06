@@ -1,9 +1,12 @@
 package com.example.ProyectoCooperativa.entidades;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
+@EntityScan
 @Table
 
 public class Creditos {

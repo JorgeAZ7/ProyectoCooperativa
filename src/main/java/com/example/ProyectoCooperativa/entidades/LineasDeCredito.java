@@ -1,11 +1,14 @@
 package com.example.ProyectoCooperativa.entidades;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
+@EntityScan
 @Table(name="Lineas_de_credito")
 public class LineasDeCredito {
     @Id
